@@ -8,7 +8,7 @@ export const SidebarData: {
       url: "/",
       items: [
         {
-          title: "Dashboard",
+          title: "Overview",
           url: "/",
           inactiveImg: "/inactive-menu.png",
           activeImg: "/menu.png",

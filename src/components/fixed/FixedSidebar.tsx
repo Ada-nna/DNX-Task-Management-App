@@ -22,7 +22,7 @@ const FixedSidebar = () => {
   const getGreetingMessage = () => {
     if (location.pathname === "/") {
       return {
-        title: "Hi Sunmisola,",
+        title: "Hi Naya,",
         subtitle: "Let's finish your task today!",
       };
     } else if (location.pathname === "/task") {
@@ -53,7 +53,7 @@ const FixedSidebar = () => {
                 <p className="text-[18px] md:text-[24px] text-black font-semibold">
                   {title}
                 </p>
-                {subtitle && <p className="mt-2">{subtitle}</p>}
+                {subtitle && <p className="mt-1">{subtitle}</p>}
               </div>
               <div className="flex items-center gap-4">
                 <Bell />
